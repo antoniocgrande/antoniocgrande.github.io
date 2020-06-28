@@ -4,15 +4,6 @@
     "namespace": "android_app",
     "package_name": "br.livetouch.safra.net.hml",
     "sha256_cert_fingerprints":
-    ["C7:CC:50:B7:B9:38:D5:62:00:52:A0:09:AB:B2:4B:65:49:FF:42:35:4B:6C:AC:41:2E:7B:12:10:D2:83:9A:DA"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "br.livetouch.safra.net.hml",
-    "sha256_cert_fingerprints":
     ["C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"]
   }
 }]
