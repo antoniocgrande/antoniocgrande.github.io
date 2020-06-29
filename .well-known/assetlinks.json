@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "br.livetouch.safra.net.hml2",
+    "package_name": "br.livetouch.safra.net.hml",
     "sha256_cert_fingerprints":
-    ["C7:CC:50:B7:B9:38:D5:62:00:52:A0:09:AB:B2:4B:65:49:FF:42:35:4B:6C:AC:41:2E:7B:12:10:D2:83:9A:DA"]
+    ["19:D1:DD:2F:03:93:FB:47:8F:6F:72:B0:7B:81:2B:6E:4B:DF:15:42:8F:29:39:44:38:04:4F:BC:17:9F:78:27"]
   }
 }]
