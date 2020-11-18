@@ -1,46 +1,98 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "br.com.antoniocgrande.deeplinkpoc",
-    "sha256_cert_fingerprints":
-    ["C7:CC:50:B7:B9:38:D5:62:00:52:A0:09:AB:B2:4B:65:49:FF:42:35:4B:6C:AC:41:2E:7B:12:10:D2:83:9A:DA"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.safra.safrawallet.hml",
-    "sha256_cert_fingerprints":
-    ["C7:CC:50:B7:B9:38:D5:62:00:52:A0:09:AB:B2:4B:65:49:FF:42:35:4B:6C:AC:41:2E:7B:12:10:D2:83:9A:DA"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.safra.safrawallet.hml2",
-    "sha256_cert_fingerprints":
-    ["C7:CC:50:B7:B9:38:D5:62:00:52:A0:09:AB:B2:4B:65:49:FF:42:35:4B:6C:AC:41:2E:7B:12:10:D2:83:9A:DA"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "br.livetouch.safra.net.hml2",
-    "sha256_cert_fingerprints":
-    ["C7:CC:50:B7:B9:38:D5:62:00:52:A0:09:AB:B2:4B:65:49:FF:42:35:4B:6C:AC:41:2E:7B:12:10:D2:83:9A:DA"]
-  }
-}]
-
-
-
-
-
-
-
-
-
-
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net.hml",
+            "sha256_cert_fingerprints": [
+                "93:F6:0A:B2:2B:16:7A:8A:84:4F:36:40:05:E2:3C:A4:CE:65:8C:9A:17:ED:17:6C:09:AD:D2:3D:28:06:24:91"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net.hml2",
+            "sha256_cert_fingerprints": [
+                "93:F6:0A:B2:2B:16:7A:8A:84:4F:36:40:05:E2:3C:A4:CE:65:8C:9A:17:ED:17:6C:09:AD:D2:3D:28:06:24:91"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net.ti",
+            "sha256_cert_fingerprints": [
+                "93:F6:0A:B2:2B:16:7A:8A:84:4F:36:40:05:E2:3C:A4:CE:65:8C:9A:17:ED:17:6C:09:AD:D2:3D:28:06:24:91"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net",
+            "sha256_cert_fingerprints": [
+                "93:F6:0A:B2:2B:16:7A:8A:84:4F:36:40:05:E2:3C:A4:CE:65:8C:9A:17:ED:17:6C:09:AD:D2:3D:28:06:24:91"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net.hml",
+            "sha256_cert_fingerprints": [
+                "C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net.hml2",
+            "sha256_cert_fingerprints": [
+                "C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net.ti",
+            "sha256_cert_fingerprints": [
+                "C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.livetouch.safra.net",
+            "sha256_cert_fingerprints": [
+                "C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"
+            ]
+        }
+    }
+]
