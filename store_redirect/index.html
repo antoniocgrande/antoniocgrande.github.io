@@ -1,7 +1,7 @@
 <script>
 
-	const PLAY_STORE = "https://play.google.com/store/apps/details?id=br.livetouch.safra.net";
-	const APPLE_STORE = "https://apps.apple.com/br/app/safra/id422705275?l=en";
+	const PLAY_STORE = "https://play.google.com/store/apps/details?id=com.safra.safrawallet";
+	const APPLE_STORE = "https://apps.apple.com/br/app/safra/id1468174076?l=en";
 
 	var query;
 	var params;
@@ -75,7 +75,7 @@
 
 	function createAppleStoreLink() {
 		//TODO:: Ver com o dev iOS qual deve ser o formato do link para passar parametros da loja para o app
-		var appleStoreLink = "https://apps.apple.com/br/app/safra/id422705275?l=en";
+		var appleStoreLink = APPLE_STORE;
 		return appleStoreLink;
 	}
 	//	Cria o link adequado para a loja com os parâmetros do deeplink -- Fim
@@ -86,7 +86,7 @@
 		} else if (navigator.userAgent.indexOf("Android") > 0) {
 			location.href = createPlayStoreLink();
 		} else {
-			location.href = "https://www.safra.com.br/abra-sua-conta.htm";
+			location.href = "https://www.agzero.com.br/#abra-sua-conta";
 		}
 	}
 
