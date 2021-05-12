@@ -1,13 +1,11 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "KFCNEC27GU.com.razeware.UniveralLinksTutorial",
-                "paths": [
-                    "*"
-                ]
-            }
-        ]
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "4JX7W43LFU.br.com.safranet.ipad",
+      "paths": ["*"]
     }
+    ]
+  }
 }
