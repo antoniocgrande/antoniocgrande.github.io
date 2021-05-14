@@ -62,9 +62,9 @@
 			var playStoreLink = PLAY_STORE + "&referrer=";
 			for (var i = 0; i < params.length; i++) {
 				if (i < params.length - 1) {
-					playStoreLink += getQueryParams(i, 0) +"%3D"+ getQueryParams(i, 1) +"%26";
+					playStoreLink += getQueryParams(i, 0) +"="+ getQueryParams(i, 1) +"%26";
 				} else {
-					playStoreLink += getQueryParams(i, 0) +"%3D"+ getQueryParams(i, 1);
+					playStoreLink += getQueryParams(i, 0) +"="+ getQueryParams(i, 1);
 				}
 			}
 		} else {
@@ -74,8 +74,19 @@
 	}
 
 	function createAppleStoreLink() {
-		//TODO:: Ver com o dev iOS qual deve ser o formato do link para passar parametros da loja para o app
-		var appleStoreLink = APPLE_STORE;
+		initVars();
+		if (validateQueries() && validateParams()) {
+			var appleStoreLink = APPLE_STORE + "&referrer=";
+			for (var i = 0; i < params.length; i++) {
+				if (i < params.length - 1) {
+					appleStoreLink += getQueryParams(i, 0) +"="+ getQueryParams(i, 1) +"%26";
+				} else {
+					appleStoreLink += getQueryParams(i, 0) +"="+ getQueryParams(i, 1);
+				}
+			}
+		} else {
+			var appleStoreLink = APPLE_STORE;
+		}
 		return appleStoreLink;
 	}
 	//	Cria o link adequado para a loja com os parâmetros do deeplink -- Fim
