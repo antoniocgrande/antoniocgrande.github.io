@@ -1,11 +1,55 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-    {
-      "appID": "4JX7W43LFU.br.com.safranet.ipad",
-      "paths": ["/store_redirect/*"]
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "4JX7W43LFU.br.com.safranet.ipad",
+                "paths": [
+                    "/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "3KLNTMNJK4.br.com.safranet.ipad.html.enterprise",
+                "paths": [
+                    "/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "4JX7W43LFU.com.safra.safrawallet",
+                "paths": [
+                    "/bcd/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "3KLNTMNJK4.com.safra.safrawallet.hml.enterprise",
+                "paths": [
+                    "/bcd/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "4JX7W43LFU.com.safra.digital",
+                "paths": [
+                    "/spd/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "3KLNTMNJK4.com.safra.digital.hml.enterprise",
+                "paths": [
+                    "/spd/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "4JX7W43LFU.br.com.safraempresas.ipad",
+                "paths": [
+                    "/mbj/store_redirect/*"
+                ]
+            },
+            {
+                "appID": "3KLNTMNJK4.br.com.safraempresas.ipad.hml.enterprise",
+                "paths": [
+                    "/mbj/store_redirect/*"
+                ]
+            }
+        ]
     }
-    ]
-  }
 }
