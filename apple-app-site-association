@@ -5,7 +5,7 @@
             {
                 "appID": "4JX7W43LFU.br.com.safraempresas.ipad",
                 "paths": [
-                    "/mbj/store_redirect/*"
+                    "*"
                 ]
             },
             {
