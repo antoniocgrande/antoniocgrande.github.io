@@ -3,9 +3,9 @@
         "apps": [],
         "details": [
             {
-                "appID": "4JX7W43LFU.br.com.safraempresas.ipad",
+                "appID": "8N5CDW78Y2.br.com.safraempresas.ipad",
                 "paths": [
-                    "/mbj/*"
+                    "/mbj/store_redirect/*"
                 ]
             },
             {
