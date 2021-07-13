@@ -1,8 +1,5 @@
 [
     {
-        "__comment": "MBF"
-    },
-    {
         "relation": [
             "delegate_permission/common.handle_all_urls"
         ],
@@ -97,10 +94,6 @@
                 "C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"
             ]
         }
-    },
-
-    {
-        "__comment": "BCD"
     },
     {
         "relation": [
@@ -198,10 +191,6 @@
             ]
         }
     },
-
-    {
-        "__comment": "MBJ"
-    },
     {
         "relation": [
             "delegate_permission/common.handle_all_urls"
@@ -273,10 +262,6 @@
                 "C2:AF:E6:89:FC:8D:9C:2C:F4:61:E0:66:04:5B:A4:4B:14:71:10:9F:BC:F0:D2:DD:EF:A9:A8:FB:03:91:13:13"
             ]
         }
-    },
-
-    {
-        "__comment": "SPD"
     },
     {
         "relation": [
